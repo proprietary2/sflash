@@ -1,3 +1,9 @@
+WORK IN PROGRESS
+
+rewrite in C underway
+
+____________
+
 sflash2 {file path} [options]
 
 Sample input file:
@@ -12,5 +18,3 @@ Sample input file:
 '-' Delimits a question, '+' an answer.
 
 {} Represent a list, for memorizing lists.
-
-Originally wrote this in C. It was a big mess--I'm a bad programmer. Took a week to write a non-functional version with leaks and overflows everywhere. Deleted it all and started fresh with C++, starting with a diagram of the main classes to get organized, and wrote most of it in a few hours. Give me C++ classes, templates, and standard library any day.
